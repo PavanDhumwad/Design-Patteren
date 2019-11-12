@@ -5,7 +5,6 @@ import Factory.Vendor.MainClass;
 public class Demo
 {
     public static void main(String[] args) {
-        String avbc;
         Singleton one = Singleton.getInstance();
         Singleton two = Singleton.getInstance();
         System.out.println(one);
